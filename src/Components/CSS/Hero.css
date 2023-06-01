@@ -1,0 +1,123 @@
+
+
+
+
+
+.hero{
+display:flex;
+justify-content: space-around;
+}
+
+.hero-left{
+    width: 50%
+}
+
+.cizgili-isim{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.cizgi{
+    background: #4338CA;
+    /* Default/indigo/800 */
+    width: 80px;
+    height: 1px;
+    margin-right: 10px;
+    border: 1px solid #3730A3;   
+}
+
+.isim{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+
+/* Default/indigo/700 */
+
+color: #4338CA;
+}
+
+.baslik{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 72px;
+color: #1F2937;
+}
+
+.info{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+width: 82%;
+/* or 156% */
+
+
+/* Default/gray/500 */
+
+color: #6B7280;
+
+    
+}
+
+.hero-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;  
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 10px;
+    
+    width: 131px;
+    height: 52px;
+    
+    /* Default/indigo/800 */
+    
+    background: #fff;
+
+    
+
+    border-radius: 6px ;
+    border-color: #3730A3;
+    color: #3730A3; 
+
+
+ 
+}    
+.button-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+   
+    width: 73px;
+height: 28px;
+  }
+
+button:hover {
+    background:#3730A3;
+    color: #fff;
+
+}
+
+.pp{
+    width: 20rem;
+    height: 20rem;;
+}
