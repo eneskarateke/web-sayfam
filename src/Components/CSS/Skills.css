@@ -26,7 +26,8 @@ margin-top: 7rem;
     align-items: flex-start;
     padding: 0px;
     gap: 120px;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+   
     
 }
 
@@ -34,7 +35,7 @@ margin-top: 7rem;
 .skill{
 display:flex;
 flex-direction: column;
-gap: 2rem;
+gap: 1rem;
 
 }
 

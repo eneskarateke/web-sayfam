@@ -1,4 +1,5 @@
 import React from "react";
+import thumb from "../icons/thumb.svg";
 import "./CSS/Footer.css";
 
 import data from "../MockData/data";
@@ -12,8 +13,12 @@ function Footer() {
       <div className="footer">
         <div className="footer-text ">{footer.text}</div>
 
-        <nav className="nav">
-          <a className="e-mail"> {links.email} </a>
+        <nav className="footer-nav">
+          <div className="e-mail">
+            <img src={thumb} alt="logo" />
+            <a className="e-mail-text"> {links.email} </a>
+          </div>
+
           <div className="social-links">
             <a className="nav-blog"> {links.blog}</a>
 

@@ -5,7 +5,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Skills from "./Components/Skills";
 import Profile from "./Components/Profile";
-import NightMode from "./Components/NightMode";
+import NightModeToggle from "./Components/NightModeToggle";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <div className="footer-haric">
-        <NightMode />
+        <NightModeToggle />
         <Header />
 
         <Hero />

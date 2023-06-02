@@ -3,15 +3,15 @@ import data from "../MockData/data";
 import "./CSS/Profile.css";
 
 function Profile() {
-  const { info } = data.profile;
-  const { aboutMe } = data.profile;
+  const { info, aboutMe, label } = data.profile;
+
   return (
     <div className="profileContainer">
-      <h1 className="ana-baslik">Profile </h1>
+      <h1 className="ana-baslik">{label} </h1>
 
       <div className="subBasliklar">
         <div className="profile-area">
-          <h2 className="profile-baslik">Profile</h2>
+          <h2 className="profile-baslik">{label}</h2>
           {/* <div className="mappedData">
             <div className="block-labels">
               {Object.entries(info).map(([key, value]) => (

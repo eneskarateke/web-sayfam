@@ -1,4 +1,12 @@
 const data = {
+  header: {
+    logoText: "E",
+    navBar: {
+      skills: "Skills",
+      projects: "Projects",
+      hire: "Hire me!",
+    },
+  },
   hero: {
     name: "Enes Hamza Karateke",
     text: "Creative thinker Minimalism lover",
@@ -12,6 +20,7 @@ const data = {
     },
   },
   profile: {
+    label: "Profile",
     info: {
       birthdate: {
         label: "Birth Date",
@@ -38,20 +47,23 @@ const data = {
   },
 
   skills: {
-    javascript: {
-      name: "JavaScript",
-      description:
-        "Hi, I'm Enes. I'm a full-stack developer. If you are looking for a developer who can craft solid and scalable front-end products with great user experiences, let's shake hands with me.",
-    },
-    react: {
-      name: "React.js",
-      description:
-        "Hi, I'm Enes. I'm a full-stack developer. If you are looking for a developer who can craft solid and scalable front-end products with great user experiences, let's shake hands with me.",
-    },
-    node: {
-      name: "Node.js",
-      description:
-        "Hi, I'm Enes. I'm a full-stack developer. If you are looking for a developer who can craft solid and scalable front-end products with great user experiences, let's shake hands with me.",
+    label: "Skills",
+    skiller: {
+      javascript: {
+        name: "JavaScript",
+        description:
+          "Hi, I'm Enes. I'm a full-stack developer. If you are looking for a developer who can craft solid and scalable front-end products with great user experiences, let's shake hands with me.",
+      },
+      react: {
+        name: "React.js",
+        description:
+          "Hi, I'm Enes. I'm a full-stack developer. If you are looking for a developer who can craft solid and scalable front-end products with great user experiences, let's shake hands with me.",
+      },
+      node: {
+        name: "Node.js",
+        description:
+          "Hi, I'm Enes. I'm a full-stack developer. If you are looking for a developer who can craft solid and scalable front-end products with great user experiences, let's shake hands with me.",
+      },
     },
   },
 

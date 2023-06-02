@@ -26,7 +26,7 @@ background: rgba(249, 249, 249, 1);
 }
 
 
-.nav{
+.footer-nav{
     margin-top: 4rem;
 margin-bottom: 6rem;
 display: flex;
@@ -35,7 +35,7 @@ justify-content: space-between;
 }
 
 
-.e-mail{
+.e-mail-text{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -45,6 +45,11 @@ justify-content: space-between;
     text-decoration-line: underline;
     
     color: #AF0C48;
+}
+
+.e-mail{
+    display: flex;
+    gap:10px;
 }
 
 

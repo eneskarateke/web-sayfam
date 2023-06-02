@@ -3,6 +3,9 @@ import "./CSS/Hero.css";
 
 import data from "../MockData/data";
 
+import linkedin from "../icons/linkedin.svg";
+import github from "../icons/github.svg";
+
 function Hero() {
   const { hero } = data;
   const { buttons } = data.hero;
@@ -18,7 +21,7 @@ function Hero() {
           <div className="cizgi"></div>
           <p className="isim"> {hero.name}</p>
         </div>
-        <h1 className="baslik"> {hero.text}</h1>
+        <div className="anaBaslik"> {hero.text}</div>
         <p className="info">{hero.info}</p>
 
         <nav className="hero-buttons">
@@ -26,15 +29,20 @@ function Hero() {
             <span className="button-text">{buttons.hire}</span>
           </button>
           <button>
-            <span className="button-text">{buttons.git}</span>
+            <span className="button-text-with-icon">
+              <img src={github} alt="github-icon" />
+              {buttons.git}
+            </span>
           </button>
           <button onClick={openLinkedInProfile}>
-            <span className="button-text">{buttons.linkedin}</span>
+            <span className="button-text-with-icon">
+              <img src={linkedin} alt="linkedin-icon" />
+              {buttons.linkedin}
+            </span>
           </button>
         </nav>
       </div>
-
-      <img className="pp" alt="profile" src="images/pp.jpg" />
+      <div className="pp"></div>
     </div>
   );
 }
