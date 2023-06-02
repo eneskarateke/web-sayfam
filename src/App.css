@@ -4,9 +4,19 @@
 .App {
   display: flex;
   flex-direction: column;
-  margin: 0 20%; 
+  
   height: auto;
   background: #FFFFFF;
+}
+
+.footer-haric {
+  margin: 0 20%; 
+}
+
+.horizontal-line{
+  border: 1px solid #BAB2E7;
+  width: 100%;
+  margin: 3rem 0;
 }
 
 

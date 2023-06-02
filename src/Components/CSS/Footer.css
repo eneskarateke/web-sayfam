@@ -1,0 +1,113 @@
+
+.footerContainer{
+margin-top: 3rem;
+background: rgba(249, 249, 249, 1);
+
+}
+
+.footer{
+    margin: 0 20% ;
+}
+
+
+.footer-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 125%;
+    margin-top: 4rem;
+
+    width: 30rem;
+    /* or 52px */
+    
+    
+    color: #1F2937;
+}
+
+
+.nav{
+    margin-top: 4rem;
+margin-bottom: 6rem;
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.e-mail{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    
+    color: #AF0C48;
+}
+
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+
+
+.nav-blog{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    
+    letter-spacing: 0.01em;
+    
+    color: #0A0A14;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nav-git{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    color: #00AB6B;
+    letter-spacing: 0.01em;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+}
+
+.nav-linked{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    
+    letter-spacing: 0.01em;
+    
+    color: #0077B5;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+

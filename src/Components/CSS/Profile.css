@@ -1,0 +1,121 @@
+.profileContainer{
+display: flex;
+flex-direction: column;
+gap:2rem
+}
+
+.ana-baslik{
+/* text-5xl/leading-none/font-semibold */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 48px;
+/* identical to box height, or 100% */
+
+
+color: #1F2937;
+}
+
+.subBasliklar{
+display: flex;
+gap: 7rem;
+
+}
+.profile-area{
+flex:41%;
+}
+.about-area{
+flex:57%
+}
+.profile-baslik{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 28px;
+
+/* identical to box height, or 93% */
+
+
+/* Default/indigo/700 */
+
+color: #4338CA;
+}
+
+.profile-item{
+    
+
+    line-height: normal;
+}
+
+.mappedData{
+display: flex;
+gap:3rem;
+margin-top:1rem
+}
+
+
+
+
+
+.profile-label{
+    font-family: 'Inter', sans-serif;;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 200%;
+   
+    
+    letter-spacing: 0.01em;
+        
+    color: #000000;
+}
+
+.profile-value{
+    font-family: 'Inter', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    /* or 36px */
+    
+    letter-spacing: 0.01em;
+    
+    color: #000000;
+   
+    
+}
+
+.about-me-baslik{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    /* identical to box height, or 93% */
+    
+    
+    /* Default/indigo/700 */
+    
+    color: #4338CA;
+}
+
+.about-me{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 1rem;
+    width: 80%;
+    /* or 27px */
+    
+    
+    /* Default/gray/500 */
+    
+    color: #6B7280;
+}
+
+

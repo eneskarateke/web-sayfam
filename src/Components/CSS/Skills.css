@@ -1,0 +1,71 @@
+.skillContainer{
+display: flex;
+flex-direction: column;
+margin-top: 7rem;
+
+}
+
+.baslik{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    
+    
+    color: #1F2937;
+
+    margin-bottom:2rem
+}
+
+.skiller{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 120px;
+    justify-content: space-evenly;
+    
+}
+
+
+.skill{
+display:flex;
+flex-direction: column;
+gap: 2rem;
+
+}
+
+.skill-name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    /* identical to box height, or 93% */
+    
+    
+    /* Default/indigo/700 */
+    
+    color: #4338CA;
+}
+
+.skill-description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+    
+    
+    /* Default/gray/500 */
+    
+    color: #6B7280;
+    
+}
+
+
+

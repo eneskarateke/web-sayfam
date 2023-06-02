@@ -7,13 +7,13 @@ function Header() {
     <div className="header">
       <div className="logo ">E</div>
 
-      <nav className="nav">
+      <div className="nav">
         <p className="nav-skills"> Skills</p>
         <p className="nav-projects"> Projects</p>
         <div className="frame-5">
           <p className="nav-hire-me"> Hire me!</p>
         </div>
-      </nav>
+      </div>
     </div>
   );
 }

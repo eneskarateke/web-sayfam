@@ -5,11 +5,15 @@
 
 .hero{
 display:flex;
-justify-content: space-around;
+justify-content: space-between;
 }
 
 .hero-left{
-    width: 50%
+    width: 50%;
+   display: flex;
+   flex-direction: column;
+   gap:2rem;
+    
 }
 
 .cizgili-isim{
