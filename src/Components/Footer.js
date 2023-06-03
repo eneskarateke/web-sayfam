@@ -8,6 +8,15 @@ function Footer() {
   const { footer } = data;
 
   const { links } = data.footer;
+
+  function openLinkedInProfile() {
+    window.open("https://www.linkedin.com/in/eneskarateke/", "_blank");
+  }
+
+  function openGithubProfile() {
+    window.open("https://github.com/eneskarateke", "_blank");
+  }
+
   return (
     <div className="footerContainer">
       <div className="footer">
@@ -16,14 +25,34 @@ function Footer() {
         <nav className="footer-nav">
           <div className="e-mail">
             <img src={thumb} alt="logo" />
-            <a className="e-mail-text"> {links.email} </a>
+            <a href="www.google.com" className="e-mail-text">
+              {" "}
+              {links.email}{" "}
+            </a>
           </div>
 
           <div className="social-links">
-            <a className="nav-blog"> {links.blog}</a>
+            <a href="www.google.com" className="nav-blog" target="_blank">
+              {" "}
+              {links.blog}
+            </a>
 
-            <a className="nav-git"> {links.git}</a>
-            <a className="nav-linked"> {links.linkedin}</a>
+            <a
+              href="https://github.com/eneskarateke"
+              className="nav-git"
+              target="_blank"
+            >
+              {" "}
+              {links.git}
+            </a>
+            <a
+              href="https://www.linkedin.com/in/eneskarateke/"
+              className="nav-linked"
+              target="_blank"
+            >
+              {" "}
+              {links.linkedin}
+            </a>
           </div>
         </nav>
       </div>

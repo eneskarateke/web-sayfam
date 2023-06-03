@@ -67,6 +67,56 @@ const data = {
     },
   },
 
+  projectSection: {
+    label: "Projects",
+    projects: {
+      project1: {
+        imgSrc:
+          "https://res.cloudinary.com/dxrokx7ua/image/upload/v1685812738/pizza_sever_m6qjl2.jpg",
+        projectName: "Pizza Sipariş",
+        description:
+          "Kod yazarken canınız pizza çektiğinde pizza siparişi verebileciğiniz bir uygulama. Hamur kalınlığını, boyutunu ve malzemeleri seçerek kolay bir şekilde pizza siparişi verebilirsiniz.",
+        tools: ["react", "yup", "axios"],
+        links: {
+          labels: ["Github", "Viewsite"],
+          links: [
+            "https://github.com/eneskarateke/fsweb-s7-challenge-pizza",
+            "https://pizza-sever.netlify.app/",
+          ],
+        },
+      },
+      project2: {
+        imgSrc:
+          "https://res.cloudinary.com/dxrokx7ua/image/upload/v1685812935/nasa_gs1xsp.jpg",
+        projectName: "NASA APOD",
+        description:
+          "Her gün Nasa'dan gelen fotoğraflarla güncellenen ve dilediğiniz tarihe giderek o tarihteki NASA fotorğafına  göz atmanızı sağlayan bir uygulama.",
+        tools: ["react", "yup", "axios"],
+        links: {
+          labels: ["Github", "Viewsite"],
+          links: [
+            "https://github.com/eneskarateke/FSWeb-S6G3-Nasa",
+            "https://nasa-apod07.netlify.app/",
+          ],
+        },
+      },
+      project3: {
+        imgSrc:
+          "https://images.pexels.com/photos/14578357/pexels-photo-14578357.jpeg",
+        projectName: "Workintech",
+        description: "asdasfasdfadfdsas",
+        tools: ["react", "yup", "axios"],
+        links: {
+          labels: ["Github", "Viewsite"],
+          links: [
+            "https://github.com/eneskarateke/fsweb-s7-challenge-pizza",
+            "https://pizza-sever.netlify.app/",
+          ],
+        },
+      },
+    },
+  },
+
   footer: {
     text: "Let’s work together on your next product.",
 

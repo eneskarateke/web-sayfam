@@ -14,6 +14,10 @@ function Hero() {
     window.open("https://www.linkedin.com/in/eneskarateke/", "_blank");
   }
 
+  function openGithubProfile() {
+    window.open("https://github.com/eneskarateke", "_blank");
+  }
+
   return (
     <div className="hero">
       <div className="hero-left">
@@ -28,7 +32,7 @@ function Hero() {
           <button>
             <span className="button-text">{buttons.hire}</span>
           </button>
-          <button>
+          <button onClick={openGithubProfile}>
             <span className="button-text-with-icon">
               <img src={github} alt="github-icon" />
               {buttons.git}

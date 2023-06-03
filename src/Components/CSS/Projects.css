@@ -1,0 +1,182 @@
+.projectsContainer{
+
+}
+
+.projectLabel{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 48px;
+/* identical to box height, or 100% */
+
+
+color: #000000;
+
+}
+
+
+
+.mappedProjects{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-between;
+padding: 0px;
+gap: 120px;
+margin-top: 5rem;
+
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+}
+
+
+.tools{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    flex: none;
+order: 3;
+flex-grow: 0;
+}
+.links{
+   /* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 11px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+    
+
+}
+
+
+.projectName{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    /* identical to box height, or 93% */
+    
+    
+    /* Default/indigo/700 */
+    
+    color: #4338CA;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.projectDescription {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 125%;
+    /* or 18px */
+    /* Default/gray/500 */
+    color: #6B7280;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 100%; /* Adjust the width as needed */
+    max-width: 320px; /* Adjust the max-width as needed */
+    overflow-wrap: break-word;
+
+    height:4rem;
+  }
+  
+    
+   
+
+.tool{
+
+    box-sizing: border-box;
+
+    padding: 6px 18px 7px;
+    gap: 10px;
+
+    background: #FFFFFF;
+    border: 1px solid #3730A3;
+    border-radius: 4px;
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.05em;
+
+color: #3730A3;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.projectIMG{
+    width: 20rem;
+    height: 14rem;
+}
+
+.link{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+text-decoration-line: underline;
+
+/* Default/indigo/800 */
+
+color: #3730A3;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+    
+}
+
+
+
+
