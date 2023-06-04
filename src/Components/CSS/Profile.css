@@ -45,7 +45,9 @@ color: #4338CA;
 }
 
 .profile-item{
-    
+    display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
 
     line-height: normal;
 }
@@ -53,7 +55,9 @@ color: #4338CA;
 .mappedData{
 display: flex;
 gap:3rem;
-margin-top:1rem
+margin-top:1rem;
+flex-wrap: wrap; /* Allow items to wrap to the next line */
+
 }
 
 
@@ -71,6 +75,8 @@ margin-top:1rem
     letter-spacing: 0.01em;
         
     color: #000000;
+    width: 8rem;
+    min-width: 8rem;
 }
 
 .profile-value{
@@ -80,10 +86,13 @@ margin-top:1rem
     font-size: 18px;
     line-height: 200%;
     /* or 36px */
+    margin-left: 7rem;
     
     letter-spacing: 0.01em;
     
     color: #000000;
+    word-wrap: break-word; /* Allow long words to break and wrap to the next line */
+  overflow-wrap: break-word;
    
     
 }

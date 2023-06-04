@@ -157,11 +157,11 @@ const data = {
           value: "1998-07-07",
         },
         residence: {
-          label: "İkametgah",
+          label: "İkamet Şehri",
           value: "Antalya, Turkey",
         },
         education: {
-          label: "Eğitim",
+          label: "Eğitim Durumu",
           value: "İşletme Lisans, Boğaziçi Üniversitesi",
         },
         preferredRole: {

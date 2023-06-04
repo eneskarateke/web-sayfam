@@ -14,13 +14,19 @@ function Header() {
 
   return (
     <div className={`header ${nightMode ? "night-mode" : ""} `}>
-      <div className="logo">{logoText}</div>
+      <div className={`logo ${nightMode ? "night" : ""} `}>{logoText}</div>
 
       <div className="nav">
-        <p className="nav-skills">{navBar?.skills}</p>
-        <p className="nav-projects">{navBar?.projects}</p>
-        <div className="frame-5">
-          <p className="nav-hire-me">{navBar?.hire}</p>
+        <p className={`nav-skills ${nightMode ? "night" : ""} `}>
+          {navBar?.skills}
+        </p>
+        <p className={`nav-projects ${nightMode ? "night" : ""} `}>
+          {navBar?.projects}
+        </p>
+        <div className={`frame-5 ${nightMode ? "night" : ""} `}>
+          <p className={`nav-hire-me ${nightMode ? "night" : ""} `}>
+            {navBar?.hire}
+          </p>
         </div>
       </div>
     </div>

@@ -35,6 +35,13 @@
         
 }
 
+.logo.night{
+    background: rgba(71, 49, 211, 1);
+
+    color: rgba(143, 136, 255, 1);
+
+}
+
 
 
 
@@ -77,6 +84,12 @@
     border-radius: 6px; 
 }
 
+.frame-5.night{
+    background: 
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    
+}
+
 
 .nav-hire-me {
     /* Hire me */
@@ -105,6 +118,7 @@
     order: 0;
     flex-grow: 0;
 }
+.nav-hire-me.night{color: #3730A3;}
 
 
 .nav-projects{
@@ -127,7 +141,7 @@
     color: #6B7280;
   
 }
-
+.nav-projects.night{}
 
 .nav-skills{
    /* nav-Skills */
@@ -150,3 +164,5 @@
     color: #6B7280;
     
 }
+
+.nav-skills.night{}
