@@ -1,26 +1,19 @@
 import React from "react";
 import thumb from "../icons/thumb.svg";
 import "./CSS/Footer.css";
-
-import data from "../MockData/data";
+import { useSelector } from "react-redux";
 
 function Footer() {
+  const currentLanguage = useSelector((state) => state.currentLanguage);
+  const data = useSelector((state) => state.data.data[currentLanguage]);
+
   const { footer } = data;
-
   const { links } = data.footer;
-
-  // function openLinkedInProfile() {
-  //   window.open("https://www.linkedin.com/in/eneskarateke/", "_blank");
-  // }
-
-  // function openGithubProfile() {
-  //   window.open("https://github.com/eneskarateke", "_blank");
-  // }
 
   return (
     <div className="footerContainer">
       <div className="footer">
-        <div className="footer-text ">{footer.text}</div>
+        <div className="footer-text">{footer?.text}</div>
 
         <nav className="footer-nav">
           <div className="e-mail">
@@ -30,7 +23,7 @@ function Footer() {
               className="e-mail-text"
               rel="noreferrer"
             >
-              {links.email}
+              {links?.email}
             </a>
           </div>
 
@@ -41,7 +34,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              {links.blog}
+              {links?.blog}
             </a>
 
             <a
@@ -50,7 +43,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              {links.git}
+              {links?.git}
             </a>
             <a
               href="https://www.linkedin.com/in/eneskarateke/"
@@ -58,7 +51,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              {links.linkedin}
+              {links?.linkedin}
             </a>
           </div>
         </nav>

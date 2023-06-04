@@ -1,20 +1,26 @@
 import React from "react";
-import data from "../MockData/data";
-
 import "./CSS/Skills.css";
-
+import { useSelector } from "react-redux";
 function Skills() {
+  const currentLanguage = useSelector((state) => state.currentLanguage);
+
+  const data = useSelector((state) => state.data.data[currentLanguage]);
+
   const { label, skiller } = data.skills;
+
   return (
     <div className="skillContainer">
-      <h2 className="baslik">{label} </h2>
+      <h2 className="baslik">{label}</h2>
       <div className="skiller">
-        {Object.keys(skiller).map((i) => (
-          <div className="skill" key={i}>
-            <h1 className="skill-name">{skiller[i].name}</h1>
-            <p className="skill-description">{skiller[i].description}</p>
-          </div>
-        ))}
+        {Object.keys(skiller || {}).map((key) => {
+          const skill = skiller[key];
+          return (
+            <div className="skill" key={key}>
+              <h1 className="skill-name">{skill?.name}</h1>
+              <p className="skill-description">{skill?.description}</p>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

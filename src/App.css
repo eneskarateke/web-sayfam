@@ -9,6 +9,11 @@
   background: #FFFFFF;
 }
 
+.App.night {
+ 
+  background: #252128;
+}
+
 .footer-haric {
   margin: 0 20%; 
 }

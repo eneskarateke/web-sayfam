@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 
 import "./CSS/NightMode.css";
+import { NightModeContext } from "../NightModeContext";
 
 function NightModeToggle() {
-  const [nightMode, setNightMode] = useState(false);
+  const { nightMode, setNightMode } = useContext(NightModeContext);
 
   const toggleNightMode = () => {
     setNightMode(!nightMode);
