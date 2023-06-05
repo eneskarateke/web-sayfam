@@ -1,6 +1,4 @@
-.projectsContainer{
 
-}
 
 .projectLabel{
     font-family: 'Inter';
@@ -15,7 +13,9 @@ color: #000000;
 
 }
 
-
+.projectLabel.night{
+    color: #AEBCCF;  
+}
 
 .mappedProjects{
 display: flex;
@@ -92,6 +92,10 @@ flex-grow: 0;
     flex-grow: 0;
 }
 
+.projectName.night{
+    color: #CFCBFF;
+}
+
 
 .projectDescription {
     font-family: 'Inter';
@@ -112,6 +116,10 @@ flex-grow: 0;
     overflow-wrap: break-word;
 
     height:4rem;
+  }
+
+  .projectDescription.night{
+    color: #FFFFFF;
   }
   
     
@@ -148,7 +156,11 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-
+.tool.night{
+    background: #383838;
+    border: 1px solid #8F88FF;
+    color: #8F88FF;
+}
 .projectIMG{
     width: 20rem;
     height: 14rem;
@@ -176,6 +188,9 @@ order: 0;
 flex-grow: 0;
     
 }
+
+.link.night {
+color: #E1E1FF;}
 
 
 

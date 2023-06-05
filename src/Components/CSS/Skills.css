@@ -19,6 +19,10 @@ margin-top: 7rem;
     margin-bottom:2rem
 }
 
+.baslik.night{
+    color: #AEBCCF;
+}
+
 .skiller{
 
     display: flex;
@@ -52,6 +56,9 @@ gap: 1rem;
     
     color: #4338CA;
 }
+.skill-name.night{
+    color: #B7AAFF;
+}
 
 .skill-description{
     font-family: 'Inter';
@@ -66,6 +73,10 @@ gap: 1rem;
     
     color: #6B7280;
     
+}
+
+.skill-description.night{
+    color: #FFFFFF;
 }
 
 

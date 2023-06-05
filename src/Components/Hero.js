@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./CSS/Hero.css";
+import { NightModeContext } from "../NightModeContext";
 
 import linkedin from "../icons/linkedin.svg";
 import github from "../icons/github.svg";
@@ -7,6 +8,8 @@ import github from "../icons/github.svg";
 import { useSelector } from "react-redux";
 
 function Hero() {
+  const { nightMode } = useContext(NightModeContext);
+
   const currentLanguage = useSelector((state) => state.currentLanguage);
 
   const data = useSelector((state) => state.data.data[currentLanguage]);
@@ -27,25 +30,41 @@ function Hero() {
     <div className="hero">
       <div className="hero-left">
         <div className="cizgili-isim">
-          <div className="cizgi"></div>
-          <p className="isim">{hero.name}</p>
+          <div className={`cizgi ${nightMode ? "night" : ""} `}></div>
+          <p className={`isim ${nightMode ? "night" : ""} `}>{hero.name}</p>
         </div>
-        <div className="anaBaslik">{hero?.text}</div>
-        <p className="info">{hero?.info}</p>
+        <div className={`anaBaslik ${nightMode ? "night" : ""} `}>
+          {hero?.text}
+        </div>
+        <p className={`info ${nightMode ? "night" : ""} `}>{hero?.info}</p>
 
         <nav className="hero-buttons">
-          <button>
+          <button className={`heroButton ${nightMode ? "night" : ""} `}>
             <span className="button-text">{buttons?.hire}</span>
           </button>
-          <button onClick={openGithubProfile}>
+          <button
+            className={`heroButton ${nightMode ? "night" : ""} `}
+            onClick={openGithubProfile}
+          >
             <span className="button-text-with-icon">
-              <img src={github} alt="github-icon" />
+              <img
+                className={`social-icons ${nightMode ? "night" : ""} `}
+                src={github}
+                alt="github-icon"
+              />
               {buttons?.git}
             </span>
           </button>
-          <button onClick={openLinkedInProfile}>
+          <button
+            className={`heroButton ${nightMode ? "night" : ""} `}
+            onClick={openLinkedInProfile}
+          >
             <span className="button-text-with-icon">
-              <img src={linkedin} alt="linkedin-icon" />
+              <img
+                className={`social-icons ${nightMode ? "night" : ""} `}
+                src={linkedin}
+                alt="linkedin-icon"
+              />
               {buttons?.linkedin}
             </span>
           </button>

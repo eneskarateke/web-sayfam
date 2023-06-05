@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./CSS/Projects.css";
 import { useSelector } from "react-redux";
+import { NightModeContext } from "../NightModeContext";
 
 function Projects() {
+  const { nightMode } = useContext(NightModeContext);
+
   const currentLanguage = useSelector((state) => state.currentLanguage);
 
   const data = useSelector((state) => state.data.data[currentLanguage]);
@@ -13,7 +16,9 @@ function Projects() {
 
   return (
     <div className="projectsContainer">
-      <div className="projectLabel">{projectSection?.label}</div>
+      <div className={`projectLabel ${nightMode ? "night" : ""} `}>
+        {projectSection?.label}
+      </div>
       <div className="mappedProjects">
         {Object.keys(projects).map((key, index) => {
           const project = projects[key];
@@ -24,11 +29,18 @@ function Projects() {
                 src={project?.imgSrc}
                 alt="sitephoto"
               />
-              <div className="projectName">{project?.projectName}</div>
-              <p className="projectDescription">{project?.description}</p>
+              <div className={`projectName ${nightMode ? "night" : ""} `}>
+                {project?.projectName}
+              </div>
+              <p className={`projectDescription ${nightMode ? "night" : ""} `}>
+                {project?.description}
+              </p>
               <div className="tools">
                 {project?.tools.map((tool, toolIndex) => (
-                  <p className="tool" key={toolIndex}>
+                  <p
+                    className={`tool ${nightMode ? "night" : ""} `}
+                    key={toolIndex}
+                  >
                     {tool}
                   </p>
                 ))}
@@ -38,7 +50,7 @@ function Projects() {
                   <a
                     href={project?.links.links[linkIndex]}
                     target="_blank"
-                    className="link"
+                    className={`link ${nightMode ? "night" : ""} `}
                     key={linkIndex}
                     rel="noreferrer"
                   >

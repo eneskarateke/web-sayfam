@@ -18,8 +18,11 @@ function App() {
   return (
     <div className={`App ${nightMode ? "night" : ""} `}>
       <div className="footer-haric">
-        <NightModeToggle />
-        <LanguageToggle />
+        <div className="modeSwitch">
+          <NightModeToggle />
+          <div className="modeSwitchLine">|</div>
+          <LanguageToggle />
+        </div>
         <Header />
         <Hero />
         <Skills />
