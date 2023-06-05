@@ -15,3 +15,9 @@ gap: 11px;
   color: #777777;
   
 }
+
+
+.darkModeText:hover{
+  cursor:pointer
+  
+}

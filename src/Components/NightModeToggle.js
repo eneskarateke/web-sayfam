@@ -19,7 +19,9 @@ function NightModeToggle() {
         checked={nightMode}
         size={50}
       />
-      <p className="darkModeText">{nightMode ? "LIGHT MODE" : "DARK MODE"}</p>
+      <p onClick={toggleNightMode} className="darkModeText">
+        {nightMode ? "LIGHT MODE" : "DARK MODE"}
+      </p>
     </div>
   );
 }

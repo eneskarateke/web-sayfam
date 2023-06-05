@@ -21,6 +21,7 @@
   padding: 0px;
   gap: 14px;
   justify-content: flex-end;
+  margin-top: 1rem;
 }
 .modeSwitchLine{
   font-family: 'Inter';
