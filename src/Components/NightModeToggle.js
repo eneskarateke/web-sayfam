@@ -3,6 +3,8 @@ import React, { useContext } from "react";
 import "./CSS/NightMode.css";
 import { NightModeContext } from "../NightModeContext";
 
+import DarkModeToggle from "react-dark-mode-toggle";
+
 function NightModeToggle() {
   const { nightMode, setNightMode } = useContext(NightModeContext);
 
@@ -11,13 +13,13 @@ function NightModeToggle() {
   };
 
   return (
-    <div className={`container ${nightMode ? "night-mode" : ""}`}>
-      <div
-        className={`toggle-button ${nightMode ? "active" : ""}`}
-        onClick={toggleNightMode}
-      >
-        <div className="slider"></div>
-      </div>
+    <div className="darkModeContainer">
+      <DarkModeToggle
+        onChange={toggleNightMode}
+        checked={nightMode}
+        size={50}
+      />
+      <p className="darkModeText">{nightMode ? "LIGHT MODE" : "DARK MODE"}</p>
     </div>
   );
 }
