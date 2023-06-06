@@ -39,7 +39,10 @@ function Hero() {
         <p className={`info ${nightMode ? "night" : ""} `}>{hero?.info}</p>
 
         <nav className="hero-buttons">
-          <button className={`heroButton ${nightMode ? "night" : ""} `}>
+          <button
+            onClick={openLinkedInProfile}
+            className={`heroButton ${nightMode ? "night" : ""} `}
+          >
             <span className="button-text">{buttons?.hire}</span>
           </button>
           <button

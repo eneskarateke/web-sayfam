@@ -21,6 +21,7 @@ color: #000000;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
+flex-wrap: wrap;
 justify-content: space-between;
 padding: 0px;
 gap: 120px;
@@ -164,6 +165,7 @@ flex-grow: 0;
 .projectIMG{
     width: 20rem;
     height: 14rem;
+    cursor: pointer;
 }
 
 .link{
@@ -195,3 +197,33 @@ color: #E1E1FF;}
 
 
 
+
+@media (max-width: 1000px) {
+    .subBasliklar {
+      flex-direction: column;
+      
+    }
+
+    .projectLabel{
+        text-align: center;
+    }
+
+    .mappedProjects{
+        flex-wrap: wrap;
+        justify-content: center;
+       gap:40px;
+    }
+
+    .projectsContainer{
+        align-items: center;
+        
+        
+    }
+
+    .projects{
+       
+        align-items: center;
+       
+    }
+    
+  }

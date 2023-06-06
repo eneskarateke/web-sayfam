@@ -14,6 +14,11 @@ function Projects() {
 
   const { projects } = data.projectSection;
 
+  const handleImageClick = (url) => {
+    const win = window.open(url, "_blank");
+    win.focus();
+  };
+
   return (
     <div className="projectsContainer">
       <div className={`projectLabel ${nightMode ? "night" : ""} `}>
@@ -25,6 +30,7 @@ function Projects() {
           return (
             <div className="projects" key={index}>
               <img
+                onClick={() => handleImageClick(project.links.links[1])}
                 className="projectIMG"
                 src={project?.imgSrc}
                 alt="sitephoto"

@@ -5,7 +5,11 @@ import { NightModeContext } from "../NightModeContext";
 import "./CSS/header.css";
 
 function Header() {
-  const { nightMode, setNightMode } = useContext(NightModeContext);
+  const { nightMode } = useContext(NightModeContext);
+
+  function openLinkedInProfile() {
+    window.open("https://www.linkedin.com/in/eneskarateke/", "_blank");
+  }
 
   const currentLanguage = useSelector((state) => state.currentLanguage);
   const data = useSelector((state) => state.data.data[currentLanguage]);
@@ -17,17 +21,20 @@ function Header() {
       <div className={`logo ${nightMode ? "night" : ""} `}>{logoText}</div>
 
       <div className="nav">
-        <p className={`nav-skills ${nightMode ? "night" : ""} `}>
+        <p className={`nav-skills frame-5 ${nightMode ? "night" : ""} `}>
           {navBar?.skills}
         </p>
-        <p className={`nav-projects ${nightMode ? "night" : ""} `}>
+
+        <p className={`nav-projects frame-5 ${nightMode ? "night" : ""} `}>
           {navBar?.projects}
         </p>
-        <div className={`frame-5 ${nightMode ? "night" : ""} `}>
-          <p className={`nav-hire-me ${nightMode ? "night" : ""} `}>
-            {navBar?.hire}
-          </p>
-        </div>
+
+        <p
+          onClick={openLinkedInProfile}
+          className={`nav-hire-me frame-5 ${nightMode ? "night" : ""} `}
+        >
+          {navBar?.hire}
+        </p>
       </div>
     </div>
   );

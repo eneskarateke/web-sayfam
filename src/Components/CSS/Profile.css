@@ -145,3 +145,28 @@ flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 
 
+@media (max-width: 1000px) {
+    .profileContainer{
+        align-items: center;
+        }
+
+        .subBasliklar{
+            flex-direction: column;
+            width: 100%;
+          
+     
+          
+        }
+    
+        .about-area{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+        }
+
+        .about-me{
+            text-align: center;
+        }
+    
+}
+

@@ -28,6 +28,7 @@ margin-top: 7rem;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+   
     padding: 0px;
     gap: 120px;
     justify-content: flex-start;
@@ -79,5 +80,25 @@ gap: 1rem;
     color: #FFFFFF;
 }
 
+
+
+@media (max-width: 1000px) {
+    
+
+    .skiller{
+        flex-wrap: wrap;
+        width: 100%;
+       
+ 
+      
+    }
+
+    .skillContainer{
+       align-items: center;
+        
+        }
+    
+
+}
 
 

@@ -147,3 +147,11 @@ color: #BAB2E7;
     color: #0BA6F7;
 }
 
+
+@media (max-width: 1000px) {
+    .footer-nav {
+      flex-direction: column;
+  }
+  
+  }
+  

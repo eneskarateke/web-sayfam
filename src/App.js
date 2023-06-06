@@ -13,7 +13,7 @@ import LanguageToggle from "./Components/LanguageToggle";
 import { NightModeContext } from "./NightModeContext";
 
 function App() {
-  const { nightMode, setNightMode } = useContext(NightModeContext);
+  const { nightMode } = useContext(NightModeContext);
 
   return (
     <div className={`App ${nightMode ? "night" : ""} `}>
@@ -31,6 +31,7 @@ function App() {
         <hr className="horizontal-line" />
         <Projects />
       </div>
+
       <Footer />
     </div>
   );

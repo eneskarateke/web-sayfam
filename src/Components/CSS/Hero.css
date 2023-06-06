@@ -190,3 +190,39 @@ img{
     height: 24em
 
 }
+
+
+@media (max-width: 1000px) {
+    .hero {
+      flex-direction: column;
+      
+    }
+    .info{
+  
+    width: 100%;
+    /* or 156% */
+    
+    
+    /* Default/gray/500 */
+    
+    color: #6B7280;
+    
+        
+    }
+
+    .pp{width: 100%;}
+    .hero-left{
+        width: 100%;
+        text-align: center;
+       
+        
+    }
+    .hero-buttons{
+       
+        justify-content: center;
+        
+    }
+   
+  }
+
+
