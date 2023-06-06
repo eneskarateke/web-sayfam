@@ -76,15 +76,10 @@
     
     background: #FFFFFF;
     /* Default/indigo/800 */
+    color: #3730A3;
     
     border: 1px solid #3730A3;
     border-radius: 6px; 
-}
-
-.frame-5.night{
-    background: 
-    linear-gradient(0deg, #FFFFFF, #FFFFFF);
-    
 }
 
 
@@ -117,7 +112,6 @@
     order: 0;
     flex-grow: 0;
 }
-.nav-hire-me.night{color: #3730A3;}
 
 
 .nav-projects{
