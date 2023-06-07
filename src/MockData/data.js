@@ -174,8 +174,9 @@ const data = {
       },
       aboutMe: {
         label: "Hakkımda",
-        pr1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id nulla diam. Mauris accumsan ante eget ligula suscipit efficitur. ",
-        pr2: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod mauris ac urna iaculis, et efficitur ligula rhoncus.",
+        pr1: `Merhaba, ben Enes. Şu anda back-end geliştirmeyi öğrenmekte olan bir front-end geliştiriciyim.`,
+        pr2: ` Eğer sağlam ve ölçeklenebilir front-end ürünler üretebilen geliştirici
+        arıyorsan benimle el sıkışabilirsin.`,
       },
     },
 
