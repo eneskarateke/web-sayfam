@@ -1,4 +1,6 @@
 import React, { useContext } from "react";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import "./CSS/NightMode.css";
 import { NightModeContext } from "../NightModeContext";
@@ -7,7 +9,14 @@ function NightModeToggle() {
   const { nightMode, setNightMode } = useContext(NightModeContext);
 
   const toggleNightMode = () => {
-    setNightMode(!nightMode);
+    const newNightMode = !nightMode;
+    setNightMode(newNightMode);
+
+    if (newNightMode) {
+      toast.success("Dark mode is active", { theme: "dark" });
+    } else {
+      toast.success("Light mode is active", { theme: "light" });
+    }
   };
 
   return (
@@ -26,6 +35,18 @@ function NightModeToggle() {
       <p onClick={toggleNightMode} className="darkModeText">
         {nightMode ? "LIGHT MODE" : "DARK MODE"}
       </p>
+      <ToastContainer
+        position="top-right"
+        autoClose={1000}
+        hideProgressBar={false}
+        newestOnTop={true}
+        closeOnClick={true}
+        rtl={false}
+        pauseOnFocusLoss={true}
+        draggable={true}
+        pauseOnHover={true}
+        theme={nightMode ? "dark" : "light"} // Set theme dynamically
+      />
     </>
   );
 }

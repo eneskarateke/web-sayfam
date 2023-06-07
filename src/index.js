@@ -9,6 +9,8 @@ import { reducer } from "./reducer";
 import logger from "redux-logger";
 import { Provider } from "react-redux";
 
+import "react-toastify/dist/ReactToastify.css";
+
 import { NightModeProvider } from "./NightModeContext";
 
 const store = createStore(reducer, applyMiddleware(logger, thunk));

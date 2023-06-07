@@ -103,15 +103,16 @@ const data = {
         },
         project3: {
           imgSrc:
-            "https://images.pexels.com/photos/14578357/pexels-photo-14578357.jpeg",
-          projectName: "New Project",
-          description: "asdasfasdfadfdsas",
+            "https://res.cloudinary.com/dxrokx7ua/image/upload/v1686152482/taskmanagement_qhgthd.jpg",
+          projectName: "Task Manager",
+          description:
+            "An application that lets you make your own to-do list, you can set a deadline for your tasks, if in need also this app lets you the set responsible people for the task.",
           tools: ["react", "yup", "axios"],
           links: {
             labels: ["Github", "Viewsite"],
             links: [
-              "https://github.com/eneskarateke/fsweb-s7-challenge-pizza",
-              "https://pizza-sever.netlify.app/",
+              "https://github.com/eneskarateke/fsweb-s9g2-task-yonetimi-2",
+              "https://task-management07.netlify.app/",
             ],
           },
         },
@@ -232,15 +233,16 @@ const data = {
         },
         project3: {
           imgSrc:
-            "https://images.pexels.com/photos/14578357/pexels-photo-14578357.jpeg",
-          projectName: "Workintech",
-          description: "asdasfasdfadfdsas",
-          tools: ["react", "yup", "axios"],
+            "https://res.cloudinary.com/dxrokx7ua/image/upload/v1686152482/taskmanagement_qhgthd.jpg",
+          projectName: "Görev Yönetimi",
+          description:
+            "Kendi yapılacaklar listenizi yapmanızı sağlayan bir uygulama, görevleriniz için bir son tarih belirleyebilir, ihtiyaç duyarsanız bu uygulama aynı zamanda görev için sorumlu kişileri belirlemenizi sağlar.",
+          tools: ["react", "toastify", "axios"],
           links: {
-            labels: ["Github", "Siteye git"],
+            labels: ["Github", "Viewsite"],
             links: [
-              "https://github.com/eneskarateke/fsweb-s7-challenge-pizza",
-              "https://pizza-sever.netlify.app/",
+              "https://github.com/eneskarateke/fsweb-s9g2-task-yonetimi-2",
+              "https://task-management07.netlify.app/",
             ],
           },
         },
