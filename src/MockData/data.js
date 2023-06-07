@@ -92,7 +92,7 @@ const data = {
           projectName: "NASA APOD",
           description:
             "An application that is updated daily with photos from NASA and allows you to go to any date and browse the NASA photo from that date.",
-          tools: ["react", "yup", "axios"],
+          tools: ["react", "bootstrap", "axios"],
           links: {
             labels: ["Github", "Viewsite"],
             links: [
@@ -107,7 +107,7 @@ const data = {
           projectName: "Task Manager",
           description:
             "An application that lets you make your own to-do list, you can set a deadline for your tasks, if in need also this app lets you the set responsible people for the task.",
-          tools: ["react", "yup", "axios"],
+          tools: ["react", "react-hook-form", "toastify"],
           links: {
             labels: ["Github", "Viewsite"],
             links: [
@@ -222,7 +222,7 @@ const data = {
           projectName: "NASA APOD",
           description:
             "Her gün Nasa'dan gelen fotoğraflarla güncellenen ve dilediğiniz tarihe giderek o tarihteki NASA fotorğafına  göz atmanızı sağlayan bir uygulama.",
-          tools: ["react", "yup", "axios"],
+          tools: ["react", "bootstrap", "axios"],
           links: {
             labels: ["Github", "Siteye git"],
             links: [
@@ -237,7 +237,7 @@ const data = {
           projectName: "Görev Yönetimi",
           description:
             "Kendi yapılacaklar listenizi yapmanızı sağlayan bir uygulama, görevleriniz için bir son tarih belirleyebilir, ihtiyaç duyarsanız bu uygulama aynı zamanda görev için sorumlu kişileri belirlemenizi sağlar.",
-          tools: ["react", "toastify", "axios"],
+          tools: ["react", "react-hook-form", "toastify"],
           links: {
             labels: ["Github", "Viewsite"],
             links: [
