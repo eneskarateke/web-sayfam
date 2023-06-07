@@ -19,13 +19,13 @@ function LanguageToggle() {
     <p className="languageToggle" onClick={handleClick}>
       {currentLanguage === "english" ? (
         <>
-          <span className="dilEki">SWITCH TO </span>
-          <span className={`dil ${nightMode ? "night" : ""} `}>ENGLISH</span>
+          <span className={`dil ${nightMode ? "night" : ""} `}>TÜRKÇE </span>
+          <span className="dilEki">'YE GEÇ</span>
         </>
       ) : (
         <>
-          <span className={`dil ${nightMode ? "night" : ""} `}>TÜRKÇE </span>
-          <span className="dilEki">'YE GEÇ</span>
+          <span className="dilEki">SWITCH TO </span>
+          <span className={`dil ${nightMode ? "night" : ""} `}>ENGLISH</span>
         </>
       )}
     </p>
