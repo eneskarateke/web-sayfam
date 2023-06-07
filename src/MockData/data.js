@@ -11,7 +11,7 @@ const data = {
     hero: {
       name: "Enes Hamza Karateke",
       text: "Creative thinker Minimalism lover",
-      info: `Hi, I'm Enes. I'm a full-stack developer. If you are looking for a
+      info: `Hi, I'm Enes. I'm a front-end developer who is learning back-end development currently. If you are looking for a
     Developer who can craft solid and scalable front-end products with
     great user experiences. Let's shake hands with me.`,
       buttons: {
@@ -42,8 +42,10 @@ const data = {
       },
       aboutMe: {
         label: "About Me",
-        pr1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id nulla diam. Mauris accumsan ante eget ligula suscipit efficitur. ",
-        pr2: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod mauris ac urna iaculis, et efficitur ligula rhoncus.",
+        pr1: `Hi, I'm Enes. I'm a front-end developer who is learning back-end development currently.`,
+        pr2: `If you are looking for a
+        Developer who can craft solid and scalable front-end products with
+        great user experiences. Let's shake hands with me.`,
       },
     },
 
@@ -53,17 +55,17 @@ const data = {
         javascript: {
           name: "JavaScript",
           description:
-            "Hi, I'm Enes. I'm a full-stack developer. If you are looking for a developer who can craft solid and scalable front-end products with great user experiences, let's shake hands with me.",
+            "I can create user interactive websites and applications. I have control over variables, functions, loops, and events. By using HTML and CSS together, I can interact with users and manipulate data.",
         },
         react: {
           name: "React.js",
           description:
-            "Hi, I'm Enes. I'm a full-stack developer. If you are looking for a developer who can craft solid and scalable front-end products with great user experiences, let's shake hands with me.",
+            "I can create component-based web applications. I can create components using JSX syntax and manage data, create dynamic interfaces using state and props. I can make my components more functional using React Hooks.",
         },
         node: {
           name: "Node.js",
           description:
-            "Hi, I'm Enes. I'm a full-stack developer. If you are looking for a developer who can craft solid and scalable front-end products with great user experiences, let's shake hands with me.",
+            "I'm still learning Node.js, exploring server-side development. By learning Express, MongoDB, and asynchronous programming, I'm building real-time applications. I'm taking steps towards becoming a full-stack developer.",
         },
       },
     },
@@ -182,18 +184,18 @@ const data = {
       skiller: {
         javascript: {
           name: "JavaScript",
-          description: `Merhaba, ben Enes. Ben bir full-stack geliştiricisiyim. Eğer sağlam ve ölçeklenebilir front-end ürünler üretebilen geliştirici
-        arıyorsan benimle el sıkışabilirsin.`,
+          description:
+            " Kullanıcı etkileşimli web siteleri ve uygulamalar oluşturabilirim. Değişkenler, fonksiyonlar, döngüler ve olaylar üzerinde hakimiyetim var. HTML ve CSS ile birlikte kullanarak kullanıcılarla etkileşime geçebilir ve verileri manipüle edebilirim.",
         },
         react: {
           name: "React.js",
-          description: `Merhaba, ben Enes. Ben bir full-stack geliştiricisiyim. Eğer sağlam ve ölçeklenebilir front-end ürünler üretebilen geliştirici
-        arıyorsan benimle el sıkışabilirsin.`,
+          description:
+            "Bileşen tabanlı web uygulamaları oluşturabiliyorum. JSX syntax ile bileşenler oluşturup verileri yönetebilir, state ve props kullanarak dinamik bir arayüz oluşturabilirim. React Hooks ile bileşenlerimi daha işlevsel hale getirebilirim.",
         },
         node: {
           name: "Node.js",
-          description: `Merhaba, ben Enes. Ben bir full-stack geliştiricisiyim. Eğer sağlam ve ölçeklenebilir front-end ürünler üretebilen geliştirici
-        arıyorsan benimle el sıkışabilirsin.`,
+          description:
+            "Hala Node.js'i öğreniyorum, sunucu tarafında geliştirme yapmayı keşfediyorum. Express, MongoDB ve asenkron programlamayı öğrenerek gerçek zamanlı uygulamalar oluşturuyorum. Full-stack geliştirici olmak için adımlar atıyorum.",
         },
       },
     },
