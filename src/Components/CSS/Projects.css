@@ -213,7 +213,7 @@ justify-content: center;
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .subBasliklar {
       flex-direction: column;
       

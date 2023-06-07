@@ -148,7 +148,7 @@ color: #BAB2E7;
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .footer-nav {
       flex-direction: column;
   }

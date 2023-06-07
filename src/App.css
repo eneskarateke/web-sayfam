@@ -45,9 +45,9 @@
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .App {
-    max-width: 1000px; /* Adjust this value based on your needs */
+    max-width: 1024px; /* Adjust this value based on your needs */
     width: 100%;
   align-content: center; 
 }
@@ -62,6 +62,21 @@
     margin-top: 1rem;
   }
 }
+
+
+@media (max-width: 500px) {
+ 
+
+  .modeSwitch{
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 14px;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+}
+
 
 
 

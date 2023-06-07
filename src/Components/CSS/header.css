@@ -157,7 +157,7 @@
     
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     
 
     .header{
@@ -172,6 +172,44 @@
         gap:2rem;
    align-items: center;
         
+        }
+ 
+
+}
+@media (max-width: 500px) {
+    
+
+    .header{
+      
+       gap: 1rem;
+            
+    }
+
+    .nav{
+        flex-direction: row;
+        gap:.5rem;
+   align-items: center;
+        
+        }
+
+        .frame-5:hover{
+            
+           
+            width: auto;
+            height: auto;
+           
+         
+        }
+        .logo{
+
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+    
+            font-size: 16px;
+         
+     
+                
         }
  
 

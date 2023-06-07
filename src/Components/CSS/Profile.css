@@ -145,7 +145,7 @@ flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .profileContainer{
         align-items: center;
         }
