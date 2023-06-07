@@ -101,4 +101,16 @@ gap: 1rem;
 
 }
 
+@media (max-width: 500px) {
+.skill-description{
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
 
+.skill-name{
+    text-align: center;
+}
+
+
+}

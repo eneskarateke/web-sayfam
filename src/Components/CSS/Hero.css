@@ -225,4 +225,22 @@ img{
    
   }
 
+  @media (max-width: 500px) {
+.anaBaslik{
+    font-size: 3rem;
+}
+
+
+.hero-buttons{
+       
+flex-direction: column;   
+align-items:center;
+}
+
+.pp{
+    width: 80%;
+    height: 10rem;
+}
+  }
+
 
