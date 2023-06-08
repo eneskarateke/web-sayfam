@@ -1,9 +1,7 @@
-import { TOGGLE_LANGUAGE } from "./actions";
-
-import data from "./MockData/data";
+import { TOGGLE_LANGUAGE, DATA_SEND } from "./actions";
 
 const initial = {
-  data: { data },
+  data: null,
 
   currentLanguage: localStorage.getItem("language") || "english",
 };
@@ -21,6 +19,14 @@ export function reducer(state = initial, action) {
       return {
         ...state,
         currentLanguage: newLanguage,
+      };
+
+    case DATA_SEND:
+      const fetchedData = action.payload;
+
+      return {
+        ...state,
+        data: fetchedData,
       };
     default:
       return state;
