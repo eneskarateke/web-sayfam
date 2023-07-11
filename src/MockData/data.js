@@ -11,9 +11,7 @@ const data = {
     hero: {
       name: "Enes Hamza Karateke",
       text: "Creative thinker Minimalism lover",
-      info: `Hi, I'm Enes. I'm a front-end developer who is learning back-end development currently. If you are looking for a
-    Developer who can craft solid and scalable front-end products with
-    great user experiences. Let's shake hands with me.`,
+      info: `Hi, I'm Enes. I'm a full-stack web developer student right now. In September 2023, I will be graduated from Workintech full-stack web developer programme. If you are looking for a developer who can craft solid and scalable front-end and back-end products with great user experiences, I am eager to work with you.`,
       buttons: {
         hire: "Hire me",
         git: "Github",
@@ -37,15 +35,13 @@ const data = {
         },
         preferredRole: {
           label: "Preferred Role",
-          value: "Front-end Developer",
+          value: "Full-stack Developer",
         },
       },
       aboutMe: {
         label: "About Me",
-        pr1: `Hi, I'm Enes. I'm a front-end developer who is learning back-end development currently.`,
-        pr2: `If you are looking for a
-        Developer who can craft solid and scalable front-end products with
-        great user experiences. Let's shake hands with me.`,
+        pr1: `I'm a full-stack web developer student right now.`,
+        pr2: `If you are looking for a developer who can craft solid and scalable front-end and back-end products with great user experiences. Let's shake hands with me.`,
       },
     },
 
@@ -65,7 +61,7 @@ const data = {
         node: {
           name: "Node.js",
           description:
-            "I'm still learning Node.js, exploring server-side development. By learning Express, MongoDB, and asynchronous programming, I'm building real-time applications. I'm taking steps towards becoming a full-stack developer.",
+            "I'm still learning Node.js, exploring server-side development. By learning Express, sql, and asynchronous programming, I'm building real-time applications.",
         },
       },
     },
@@ -144,8 +140,7 @@ const data = {
     hero: {
       name: "Enes Hamza Karateke",
       text: "Minimalist takılan yaratıcı düşünür",
-      info: `Merhaba, ben Enes. Ben bir full-stack geliştiricisiyim. Eğer sağlam ve ölçeklenebilir front-end ürünler üretebilen geliştirici
-    arıyorsan benimle el sıkışabilirsin.`,
+      info: `Merhaba, ben Enes. Ben bir full-stack geliştiricisiyim. Eğer sağlam ve ölçeklenebilir front-end ürünler üretebilen geliştirici arıyorsan benimle el sıkışabilirsin.`,
       buttons: {
         hire: "İşe al!",
         git: "Github",
@@ -174,9 +169,8 @@ const data = {
       },
       aboutMe: {
         label: "Hakkımda",
-        pr1: `Merhaba, ben Enes. Şu anda back-end geliştirmeyi öğrenmekte olan bir front-end geliştiriciyim.`,
-        pr2: ` Eğer sağlam ve ölçeklenebilir front-end ürünler üretebilen geliştirici
-        arıyorsan benimle el sıkışabilirsin.`,
+        pr1: `Merhaba, ben Enes. Şu anda full-stack geliştirme parogramından mezun olmak üzereyim.`,
+        pr2: ` Eğer sağlam ve ölçeklenebilir full-stack ürünler üretebilen geliştirici arıyorsan benimle el sıkışabilirsin.`,
       },
     },
 
@@ -196,7 +190,7 @@ const data = {
         node: {
           name: "Node.js",
           description:
-            "Hala Node.js'i öğreniyorum, sunucu tarafında geliştirme yapmayı keşfediyorum. Express, MongoDB ve asenkron programlamayı öğrenerek gerçek zamanlı uygulamalar oluşturuyorum. Full-stack geliştirici olmak için adımlar atıyorum.",
+            "Node.js ile sunucu tarafında geliştirme yapmayı seviyorum. Express, sqlite ve asenkron programlamayı öğrenerek gerçek zamanlı uygulamalar oluşturuyorum.",
         },
       },
     },
