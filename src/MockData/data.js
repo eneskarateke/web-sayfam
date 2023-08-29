@@ -11,7 +11,7 @@ const data = {
     hero: {
       name: "Enes Hamza Karateke",
       text: "Creative thinker Minimalism lover",
-      info: `Hi, I'm Enes. I'm a full-stack web developer student right now. In September 2023, I will be graduated from Workintech full-stack web developer programme. If you are looking for a developer who can craft solid and scalable front-end and back-end products with great user experiences, I am eager to work with you.`,
+      info: `Greetings, I'm a full-stack developer. I have a certificate of achievement from the Workintech Full Stack Developer program. I would be very interested in working with you if you are seeking a developer who can create reliable, scalable front-end and back-end products with excellent user experiences.`,
       buttons: {
         hire: "Hire me",
         git: "Github",
@@ -40,8 +40,9 @@ const data = {
       },
       aboutMe: {
         label: "About Me",
-        pr1: `I'm a full-stack web developer student right now.`,
-        pr2: `If you are looking for a developer who can craft solid and scalable front-end and back-end products with great user experiences. Let's shake hands with me.`,
+        pr1: `I'm a full-stack developer. I have a certificate of
+        achievement from the Workintech Full Stack Developer program.`,
+        pr2: `I would be very interested in working with you if you are seeking a developer who can create reliable, scalable front-end and back-end products with excellent user experiences.`,
       },
     },
 
@@ -61,7 +62,7 @@ const data = {
         node: {
           name: "Node.js",
           description:
-            "I'm still learning Node.js, exploring server-side development. By learning Express, sql, and asynchronous programming, I'm building real-time applications.",
+            "By learning Express, SQL, and asynchronous programming, I'm building real-time applications.",
         },
       },
     },
@@ -140,7 +141,7 @@ const data = {
     hero: {
       name: "Enes Hamza Karateke",
       text: "Minimalist takılan yaratıcı düşünür",
-      info: `Merhaba, ben Enes. Ben bir full-stack geliştiricisiyim. Eğer sağlam ve ölçeklenebilir front-end ürünler üretebilen geliştirici arıyorsan benimle el sıkışabilirsin.`,
+      info: `Merhaba, ben Enes. Ben bir full-stack geliştiricisiyim. Eğer sağlam ve ölçeklenebilir front-end  ve back-end ürünler üretebilen geliştirici arıyorsan benimle el sıkışabilirsin.`,
       buttons: {
         hire: "İşe al!",
         git: "Github",
@@ -169,7 +170,7 @@ const data = {
       },
       aboutMe: {
         label: "Hakkımda",
-        pr1: `Merhaba, ben Enes. Şu anda full-stack geliştirme parogramından mezun olmak üzereyim.`,
+        pr1: `Merhaba, ben Enes. Full stack web geliştiricisiym.`,
         pr2: ` Eğer sağlam ve ölçeklenebilir full-stack ürünler üretebilen geliştirici arıyorsan benimle el sıkışabilirsin.`,
       },
     },
